@@ -7,7 +7,8 @@ Flappy birds-style game with space ships
 
 ####**Download/Install**
 ---------
- - Extract and run the Unity project
+ - Clone 'https://github.com/pg22shatrujit/FlappyBird3D' (main branch)
+ - Open project in Unity
 
 ####**Controls**
 --------
