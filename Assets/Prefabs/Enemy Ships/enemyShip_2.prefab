@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3731129648057528866}
   - component: {fileID: 1790053455942766115}
   - component: {fileID: 4498276162671981102}
-  - component: {fileID: -4870972817910226135}
+  - component: {fileID: 7755730979407227311}
   m_Layer: 0
   m_Name: enemyShip_2
   m_TagString: Untagged
@@ -28,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313105368279335038}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!33 &5251580131296672615
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -113,17 +113,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
---- !u!136 &-4870972817910226135
-CapsuleCollider:
+--- !u!65 &7755730979407227311
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313105368279335038}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 2.3
-  m_Height: 19.81
-  m_Direction: 2
+  serializedVersion: 2
+  m_Size: {x: 20, y: 1.48, z: 10.2}
   m_Center: {x: 0, y: 0, z: 0}
