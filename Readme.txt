@@ -7,7 +7,7 @@ Flappy birds-style game with space ships
 
 ####**Download/Install**
 ---------
- - Clone 'https://github.com/pg22shatrujit/FlappyBird3D' (main branch)
+ - Clone 'https://github.com/pg22shatrujit/SpaceRushBounce' (main branch)
  - Open project in Unity
 
 ####**Controls**
